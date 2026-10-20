@@ -1,0 +1,53 @@
+# Compiled class files & build outputs
+*.class
+out/
+target/
+build/
+
+# Package files (keep bundled Tomcat libraries)
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# IntelliJ IDEA
+.idea/workspace.xml
+.idea/shelf/
+.idea/httpRequests/
+.idea/queries/
+.idea/dataSources/
+.idea/dataSources.local.xml
+*.iws
+
+# Eclipse / NetBeans
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+
+# VS Code
+.vscode/.browse.c_cpp.db*
+.vscode/*.log
+
+# Environment variables & secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Apache Tomcat runtime directories
+**/apache-tomcat-*/work/
+**/apache-tomcat-*/temp/
+**/apache-tomcat-*/logs/
