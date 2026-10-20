@@ -4,6 +4,15 @@ out/
 target/
 build/
 
+# Local dependencies and caches
+node_modules/
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.gradle/
+
 # Package files (keep bundled Tomcat libraries)
 *.war
 *.ear
